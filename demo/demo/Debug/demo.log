@@ -1,3 +1,3 @@
-﻿  main.c
-C:\Users\王泓文\Desktop\bluebird1337\data_structure_learning\demo\demo\main.c(5,16): warning C4013: 'fast_power' undefined; assuming extern returning int
-  demo.vcxproj -> C:\Users\王泓文\Desktop\bluebird1337\data_structure_learning\demo\Debug\demo.exe
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (demo.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  taylor_series.c
+  demo.vcxproj -> C:\Users\王泓文\Desktop\bluebird1337\data_structure_learning\demo\Debug\recursion_demo.exe

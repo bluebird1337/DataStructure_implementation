@@ -24,7 +24,10 @@
     <ClCompile Include="main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="fast power.c">
+    <ClCompile Include="fast_power.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="taylor_series.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
