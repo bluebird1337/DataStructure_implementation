@@ -30,5 +30,8 @@
     <ClCompile Include="taylor_series.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="fib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
