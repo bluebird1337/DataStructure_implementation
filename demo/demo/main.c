@@ -2,7 +2,7 @@
 
 int main() {
 	int n;
-	n = f(5);
+	n = fast_power(3, 5);
 	printf("%d", n);
 	return 0;
 }
