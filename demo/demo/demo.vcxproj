@@ -25,6 +25,7 @@
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
     </ClCompile>
     <ClCompile Include="main.c" />
+    <ClCompile Include="nCr.c" />
     <ClCompile Include="static variable.c" />
     <ClCompile Include="taylor_series.c" />
   </ItemGroup>

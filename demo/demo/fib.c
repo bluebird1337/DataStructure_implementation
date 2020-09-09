@@ -10,7 +10,9 @@ int fib(int x) {
 }
 
 int fib_loop(int x) {
-	int t0 = 0, t1 = 1, r;
+	int t0 = 0, t1 = 1, r=0;
+	if (x <= 1)
+		return x;
 	for (int i = 2; i <= x; i++) {
 		r = t0 + t1;
 		t0 = t1;
@@ -19,8 +21,8 @@ int fib_loop(int x) {
 	return r;
 }
 
-int data[100];
 
+int data[100];
 int fib_store(int n) {
 	if (data[n] < 0) {
 		int temp = fib_store(n - 1) + fib_store(n - 2);
