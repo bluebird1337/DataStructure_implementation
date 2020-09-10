@@ -24,6 +24,7 @@
     <ClCompile Include="head _tail recursion.c">
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
     </ClCompile>
+    <ClCompile Include="honai_tower.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="nCr.c" />
     <ClCompile Include="static variable.c" />

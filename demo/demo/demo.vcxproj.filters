@@ -36,5 +36,8 @@
     <ClCompile Include="nCr.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="honai_tower.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
