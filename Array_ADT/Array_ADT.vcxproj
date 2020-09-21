@@ -22,6 +22,7 @@
     <ClCompile Include="binary_search.c" />
     <ClCompile Include="function.c" />
     <ClCompile Include="main.c" />
+    <ClCompile Include="merge.c" />
     <ClCompile Include="reverse.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

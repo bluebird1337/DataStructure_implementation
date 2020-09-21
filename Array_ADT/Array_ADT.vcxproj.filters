@@ -27,5 +27,8 @@
     <ClCompile Include="function.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="merge.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

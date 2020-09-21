@@ -15,14 +15,13 @@ int delete(array* a, int index);
 void swap(int* a, int* b);
 void reverse(array* a);
 void reverse2(array* a);
-
+array merge(array a, array b);
 
 int main()
 {
-	array arr1 = { {2,3,4,5,6},10,5 };
-	array arr2 = { {2,3,9,16,18,21,28,32,35},10,9 };
-	Display(arr1);
-	reverse2(&arr1);
-	Display(arr1);
+	array arr1 = { {2, 4, 6, 8, 10},10 ,5 };
+	array arr2 = { {1, 3, 5, 7, 9},10 ,5 };
+	array arr3 = merge(arr1, arr2);
+	Display(arr3);
 	return 0;
 }
