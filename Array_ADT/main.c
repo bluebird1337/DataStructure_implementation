@@ -30,11 +30,21 @@ void Insert(array* arr, int index, int x)
 		arr->length++;
 	}
 }
+int delete(array* a, int index) {
+	if (index >= 0 && index < a->length) {
+		int temp = a->A[index];
+		for (int i = index; i < a->length-1; i++)
+			a->A[i] = a->A[i + 1];
+		a->length--;
+		return temp;
+	}
+}
+
 int main()
 {
-	array arr1 = { {2,3,4,5,6},10,5 };
-	Append(&arr1, 10);
-	Insert(&arr1, 0, 12);
-	Display(arr1);
+	array arr = { {2,3,4,5,6},10,5 };
+	Display(arr);
+	printf("\n%d", delete(&arr, 0));
+	Display(arr);
 	return 0;
 }
