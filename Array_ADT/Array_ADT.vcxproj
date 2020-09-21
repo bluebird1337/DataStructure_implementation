@@ -19,7 +19,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="binary_search.c" />
+    <ClCompile Include="function.c" />
     <ClCompile Include="main.c" />
+    <ClCompile Include="reverse.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
