@@ -16,12 +16,14 @@ void swap(int* a, int* b);
 void reverse(array* a);
 void reverse2(array* a);
 array merge(array a, array b);
+array* intersection(array a, array b);
+array* difference(array a, array b);
 
 int main()
 {
 	array arr1 = { {2, 4, 6, 8, 10},10 ,5 };
-	array arr2 = { {1, 3, 5, 7, 9},10 ,5 };
-	array arr3 = merge(arr1, arr2);
-	Display(arr3);
+	array arr2 = { {1, 3, 6, 7, 10},10 ,5 };
+	array* arr3 = difference(arr1, arr2);
+	Display(*arr3);
 	return 0;
 }

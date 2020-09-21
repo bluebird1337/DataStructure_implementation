@@ -30,5 +30,11 @@
     <ClCompile Include="merge.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="intersection.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="difference.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

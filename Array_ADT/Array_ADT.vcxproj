@@ -20,7 +20,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="binary_search.c" />
+    <ClCompile Include="difference.c" />
     <ClCompile Include="function.c" />
+    <ClCompile Include="intersection.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="merge.c" />
     <ClCompile Include="reverse.c" />
