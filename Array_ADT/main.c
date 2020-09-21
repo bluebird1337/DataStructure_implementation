@@ -39,12 +39,26 @@ int delete(array* a, int index) {
 		return temp;
 	}
 }
+int binary_search(array a, int target) {
+	int l = 0, h = a.length - 1, mid;
+	while (l <= h) {
+		mid = l-(l-h)/ 2;
+		if (a.A[mid] > target)
+			h = mid - 1;
+		else if (a.A[mid] < target)
+			l = mid + 1;
+		else
+			return mid;
+	}
+	return -1;
+}
 
 int main()
 {
-	array arr = { {2,3,4,5,6},10,5 };
-	Display(arr);
-	printf("\n%d", delete(&arr, 0));
-	Display(arr);
+	array arr1 = { {2,3,4,5,6},10,5 };
+	array arr2 = { {2,3,9,16,18,21,28,32,35},10,9 };
+	Display(arr2);
+	int s = binary_search(arr2, 21);
+	printf("%d", s);
 	return 0;
 }
