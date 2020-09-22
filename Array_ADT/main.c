@@ -19,11 +19,10 @@ array merge(array a, array b);
 array* intersection(array a, array b);
 array* difference(array a, array b);
 
+
 int main()
 {
-	array arr1 = { {2, 4, 6, 8, 10},10 ,5 };
-	array arr2 = { {1, 3, 6, 7, 10},10 ,5 };
-	array* arr3 = difference(arr1, arr2);
-	Display(*arr3);
+	array arr1 = { {3, 6, 8, 8, 10, 12, 15, 15, 15, 20},20 ,10 };
+
 	return 0;
 }
