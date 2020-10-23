@@ -22,7 +22,8 @@ array* difference(array a, array b);
 
 int main()
 {
-	array arr1 = { {3, 6, 8, 8, 10, 12, 15, 15, 15, 20},20 ,10 };
-
+	int a;
+	scanf(%d, &a);
+	printf("%d", a);
 	return 0;
 }
