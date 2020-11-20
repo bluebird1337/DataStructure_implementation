@@ -149,6 +149,7 @@ void display(queue q) {
 	}
 	printf("\n");
 }
+//normal queue
 
 struct Queue {
 	int data;
