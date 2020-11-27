@@ -78,32 +78,28 @@ node* insert_circular(node* p, int index, int key) {
 }
 
 node* insert_sorted(node* p, int key) {
-
+	node* tmp, * r = NULL, * q = p;
+	tmp = (node*)malloc(sizeof(node));
+	tmp->data = key;
+	tmp->next = NULL;
 	if (p == NULL) {
-		p = (node*)malloc(sizeof(node));
-		if (p) {
-			p->data = key;
-			p->next = NULL;
-		}
-		return p;
+		p = tmp;
 	}
 	else {
-		node* q, * r, *new;
-		q = p;
-		r = NULL;
-		while (q->data < key) {
+		while (q && q->data < key) {
 			r = q;
 			q = q->next;
 		}
-		new = (node*)malloc(sizeof(node));
-		if (new) {
-			new->data = key;
-			new->next = q;
-			if(r)r->next = new;
+		if (q == p) {
+			tmp->next = p;
+			p = tmp;
 		}
-		return p;
+		else {
+			tmp->next = r->next;
+			r->next = tmp;
+		}
 	}
-
+	return p;
 }
 
 node* insert(node* p, int index, int x) {
